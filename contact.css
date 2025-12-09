@@ -1,0 +1,192 @@
+
+:root {
+    --color-light-green: #e9f5e9; 
+    --color-dark-text: #333;
+    --color-gray-text: #555;
+    --color-border: #ccc;
+    --color-background-light-gray: #f9f9f9;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-background-light-gray);
+    color: var(--color-dark-text);
+    line-height: 1.6;
+}
+
+.main-container {
+    max-width: 1000px;
+    margin: 50px auto 0 auto;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-content {
+    display: flex;
+    border-bottom: 1px solid #eee; 
+}
+
+.contact-info-section {
+    flex: 1;
+    padding: 30px;
+}
+
+.contact-info-section h2 {
+    font-size: 24px;
+    margin-top: 0;
+    color: var(--color-dark-text);
+}
+
+.contact-info-section h3 {
+    font-size: 18px;
+    color: var(--color-dark-text);
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.separator {
+    border: 0;
+    height: 1px;
+    background-color: #eee;
+    margin: 20px 0;
+}
+
+/* Gaya Tautan Media Sosial (dengan Gambar Kustom) */
+.social-links a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--color-dark-text);
+    margin-bottom: 10px;
+}
+
+.social-icon {
+    width: 20px; 
+    height: 20px;
+    margin-right: 10px;
+}
+
+.location-item {
+    display: flex;
+    align-items: flex-start;
+    margin: 5px 0;
+}
+
+.location-item i {
+    margin-right: 10px;
+    font-size: 16px;
+    padding-top: 2px;
+}
+
+
+.message-form-section {
+    flex: 1;
+    background-color: #f7fbf7;
+    padding: 30px;
+}
+
+.form-container h2 {
+    text-align: left;
+    color: var(--color-dark-text);
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: var(--color-gray-text);
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid var(--color-border);
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: white; 
+    outline: none;
+}
+
+form textarea {
+    resize: vertical;
+    min-height: 100px; 
+}
+
+.send-button {
+    background-color: #558B6E; 
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    float: right;
+    transition: background-color 0.3s;
+}
+
+.send-button:hover {
+    background-color: #45725A;
+}
+
+.green-footer {
+    background-color: var(--color-light-green);
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px 30px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #d4e6d4;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.footer-help {
+    display: flex;
+    gap: 20px;
+    font-weight: bold;
+}
+
+.footer-social-follow span {
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.footer-icon {
+    width: 18px; 
+    height: 18px;
+    margin-left: 10px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: flex-start;
+    gap: 100px;
+}
+
+.footer-links-group h4 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.footer-links-group ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links-group li a {
+    text-decoration: none;
+    color: var(--color-dark-text);
+    display: block;
+    margin-bottom: 5px;
+}
